@@ -1,0 +1,2 @@
+Raycaster.exe : ../src/*.cpp ../include/*.hpp
+	g++ ../src/*.cpp -o Raycaster.exe -DSFML_STATIC -I D:/SFML/include -I ../include -L D:/SFML/lib -lsfml-audio-s -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -lfreetype -lopenal32 -lflac -lvorbisenc -lvorbisfile -lvorbis -logg
